@@ -32,6 +32,8 @@ figuring out how to properly test the client is something I would focus on.
 Note: Mockito was used in this case as it was mentioned that this is what is used at the company for testing. I wanted to show my knowledge of it and how some of your dev choices have to be made to ensure you can test it successfully. 
 For example the `HttpRequester` class was created to allow the calls made to the server during testing the client mockable using mockito
 
+Tests can be run via the IDE or using the `mvn clean test` command
+
 ### Potential Improvements
 1. Creating the game to be able to run multiple games at the same time
 2. Improved testing of client
